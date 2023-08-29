@@ -1,6 +1,6 @@
 # E-commerce Application
 
-Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where
+It is like a clone for ECommerce applications like Amazon, Flipkart where
 users can login and can see list of products with search, filters, sort by, etc..
 
 - Implemented Different pages and routes for Login, Products, Product details using React Router
