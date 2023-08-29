@@ -1,0 +1,15 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+.not-found-img {
+  width: 400px;
+}
+
+.for-not-found {
+  font-family: lato;
+  color: #1e293b;
+}

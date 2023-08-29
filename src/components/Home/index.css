@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Kaushan+Script&family=Lato&family=Merriweather:wght@300&family=Nabla&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;1,400;1,500&family=Tilt+Prism&display=swap');
+.Home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: calc(100vh - 60px);
+}
+
+.inner-container {
+  width: 500px;
+  padding: 10px;
+  align-self: flex-start;
+  margin-top: 40px;
+}
+
+.image-class {
+  width: 350px;
+}
+
+.heading-element {
+  font-size: 46px;
+
+  margin-top: 36px;
+
+  color: #1e293b;
+
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  font-family: 'Poppins';
+  margin-top: 36px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #272727;
+}
+.button-element {
+  background-color: #0967d2;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.button-element:hover {
+  background-color: chocolate;
+}
+.image-class-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .image-class-mobile {
+    display: block;
+    width: 200px;
+
+    margin: 0 auto;
+  }
+  .image-class {
+    display: none;
+  }
+  .inner-container {
+    align-self: center;
+  }
+  .heading-element {
+    font-size: 34px;
+    margin-top: 0px;
+  }
+  .paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .button-element {
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 336px) {
+  .heading-element {
+    font-size: 26px;
+  }
+  .paragraph {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .button-element {
+    font-size: 10px;
+    width: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .inner-container {
+    display: block;
+    width: 400px;
+  }
+  .image-class {
+    width: 300px;
+  }
+}

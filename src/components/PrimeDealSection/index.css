@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Kaushan+Script&family=Lato&family=Merriweather:wght@300&family=Nabla&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&family=Raleway:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;1,400;1,500&family=Tilt+Prism&display=swap');
+
+.for-primDeals-Section {
+  padding: 10px 35px;
+  padding-left: 0px;
+  width: 90vw;
+}
+
+.ul-element {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+  flex-wrap: wrap;
+  width: calc(90vw - 70px);
+}
+
+.primeHeading {
+  font-family: 'Raleway';
+  margin-left: 17px;
+  color: #1e293b;
+}
+
+.for-loader {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-prime-image {
+  width: 80vw;
+}
+
+@media screen and (max-width: 768px) {
+  .primeHeading {
+    font-size: 34px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .ul-element {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .for-primDeals-Section {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .primeHeading {
+    align-self: flex-start;
+  }
+}

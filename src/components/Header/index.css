@@ -1,0 +1,139 @@
+.nav-element {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding: 0px 30px;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.li-element {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.imageClass {
+  width: 100px;
+}
+
+.button-Element {
+  background-color: #0967d2;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 70px;
+
+  cursor: pointer;
+}
+
+.button-Element:hover {
+  background-color: chocolate;
+}
+
+.link > span {
+  color: white;
+  font-weight: 900;
+  background-color: #0967d2;
+  padding: 4px 5px;
+  font-size: 12px;
+  border-radius: 50%;
+
+  margin-left: 5px;
+}
+.link > span:hover {
+  background-color: chocolate;
+}
+
+.link:hover {
+  color: chocolate;
+}
+
+.nav-mobile-btn {
+  display: none;
+}
+.nav-bar-img {
+  display: none;
+}
+
+.nav-menu-mobile {
+  display: none;
+}
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #e6f6ff;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.nav-bar-img {
+  width: 24px;
+  display: flex;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+}
+
+.para {
+  color: white;
+  font-weight: 900;
+  background-color: #0967d2;
+  padding: 4px 5px;
+  font-size: 12px;
+  border-radius: 50%;
+
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu-mobile {
+    display: flex;
+  }
+
+  .nav-element {
+    border-bottom: 1px solid #dadada;
+  }
+
+  .for-column-in-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-mobile-btn {
+    border: none;
+    padding: 0px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}

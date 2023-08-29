@@ -1,0 +1,61 @@
+.imageinlist {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.rating-pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0967d2;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+
+  padding: 1px 5px;
+}
+.star-img {
+  width: 18px;
+  height: 18px;
+
+  margin: 0px 0px 3px 5px;
+}
+
+.list-class {
+  list-style-type: none;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.for-inside {
+  padding: 10px;
+}
+
+.for-inside > h1 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: lato;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.for-inside > p {
+  margin-top: 2px;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.for-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.for-row > p {
+  font-size: 14px;
+}

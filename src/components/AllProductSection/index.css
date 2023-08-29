@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Kaushan+Script&family=Lato&family=Merriweather:wght@300&family=Nabla&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&family=Raleway:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;1,400;1,500&family=Tilt+Prism&display=swap');
+
+.all-products-section {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+}
+
+.for-loader-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.for-allProducts-Section {
+  padding: 10px 35px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.allProducts-ul-element {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+.no-products-img {
+  width: 50%;
+}
+
+.no-products-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.no-products-heading {
+  font-family: lato;
+  color: #1e293b;
+}
+.no-products-description {
+  font-family: lato;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 768px) {
+  .all-products-section {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .allProducts-ul-element {
+    justify-content: space-evenly;
+  }
+
+  .for-allProducts-Section {
+    padding: 5px;
+  }
+  .no-products-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+  .no-products-description {
+    font-size: 12px;
+    text-align: center;
+  }
+  .no-products-img {
+    width: 85%;
+  }
+}
