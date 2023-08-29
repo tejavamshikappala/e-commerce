@@ -1,4 +1,4 @@
-# E-commerce Application
+# e-commerce Application
 
 It is like a clone for ECommerce applications like Amazon, Flipkart where
 users can login and can see list of products with search, filters, sort by, etc..
